@@ -1,0 +1,204 @@
+.rectangle{
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    background-color: #472E8D;
+      
+    .p1{
+        text-align: center;
+    font: normal normal normal 18px/64px Poppins;
+    letter-spacing: 0.9px;
+    color: #F4C911;
+    text-transform: uppercase;
+    }
+}
+
+     .text-dec a, .text-dec li a{
+            text-decoration: none;
+             }
+             
+             .header img {
+                float: left;
+                width: 75px;
+                height: 75px;
+                
+    
+              }
+              .header h3 {
+                position: relative;
+                top: 6px;
+                left: 10px;
+              }  
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://source.unsplash.com/1600x900/?gym" alt=""');
+
+    .hero-heading{
+        margin-top: 4rem;
+        h1{
+            color: white;
+        }
+        li{
+            color: white;
+            padding-right: 10%;
+        }
+        .btn-section{
+            button{
+            border-radius: 10px 10px;
+            background-color: #F4C911;
+            }
+        }
+    }
+}
+
+//4 columns grid
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-radius: 10px 10px;
+
+    background-color:#29292A12;
+    .img-section{
+        img{
+                display: block;
+               margin-left: auto;
+              margin-right: auto; 
+               width: 35%;
+                border-radius: 10px 10px;
+        }
+}
+}
+
+.page2{
+    background-color: whitesmoke;
+   .my-card-section{
+    box-shadow: 2px 2px 6px grey;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+       .img-section{
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+       }
+       .info-section{
+        padding: 1rem;
+
+       }
+} 
+.btn1{
+    text-align: center;
+    left: 0px;
+
+   }
+
+   .btn-section{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       button{
+        border-radius: 10px 10px;
+        background-color: #F4C911;
+       }
+   }
+   
+}
+//page 3
+.page3{
+    .img-section{
+        img{
+            width: 100%;
+        }
+    }
+    .info-section{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+        .btn{
+        display: flex;
+        justify-content: start;
+        
+    }
+ } 
+
+//page4
+.page4{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .img-section{
+        width: 100%;
+        img{
+        width: 100%;
+
+            border-radius: 10px 10px;
+        }
+    }
+}
+
+//page5
+
+.page5{
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://source.unsplash.com/700x400/?gym" alt=""');
+
+    .hero-heading{
+        margin-top: 4rem;
+        h1{
+            color: white;
+        }
+    }
+}
+
+.page6{
+    width: 100%;
+    .img-section{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.page7{
+    background-color: #D1C4E9;
+    margin: 0 auto;
+    padding-top: 5%;
+    // padding: 20px 0;
+    .row{
+        .header img {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background: #555;
+
+          }
+          .header h3 {
+            position: relative;
+            top: 6px;
+            left: 10px;
+          }
+        .col-md-6{
+        color: white;
+        background-color: black;
+        }
+        .p1{
+            padding-top: 5px;
+            padding-left: 100px;
+        }
+    }
+ 
+}
